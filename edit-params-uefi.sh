@@ -11,3 +11,6 @@ sed -i "11 a provisioning_enable: false" "${PARAM_FILE}"
 sed -i "12 a virtual_protocol: redfish" "${PARAM_FILE}"
 sed -i "s/ipmi_address/redfish_address/g" "${PARAM_FILE}"
 sed -i "/redfish_address/ a   model: ${BM_WORKER_MODEL}" "${PARAM_FILE}"
+
+
+# YK-demo edition
